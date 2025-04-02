@@ -19,7 +19,7 @@ public class TestCashBack {
         CashBack cashBack = new CashBack();
 
         int actual = cashBack.cashBackCalculation(1000,false);
-        int expected = 500;//50 right value
+        int expected = 50;//50 right value
 
         Assertions.assertEquals(expected,actual);
     }
